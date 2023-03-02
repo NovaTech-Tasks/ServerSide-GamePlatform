@@ -29,32 +29,4 @@ public class GamePlatform2023Application {
 	  };
 	}
 
-//@Bean
-//	public SecurityFilterChain securityFilterChain(HttpSecurity security) throws Exception {
-//		return security.authorizeHttpRequests()
-//				.requestMatchers(HttpMethod.POST, "api/v1/users")
-//				.permitAll()
-//				.anyRequest()
-//				.authenticated().and()
-//				.csrf().disable()
-//				.httpBasic().and()
-//				.formLogin().and()
-//				.build();
-//	}
-//
-//	@Bean
-//	public PasswordEncoder passwordEncoder(){
-//		return new PasswordEncoder() {
-//			@Override
-//			public String encode(CharSequence rawPassword) {
-//				return rawPassword.toString();
-//			}
-//
-//			@Override
-//			public boolean matches(CharSequence rawPassword, String encodedPassword) {
-//				return rawPassword.toString().matches(encodedPassword);
-//			}
-//		};
-//	}
-
 }
